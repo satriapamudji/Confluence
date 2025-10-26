@@ -6,7 +6,7 @@ This educational student project demonstrates modern web development practices f
 
 ## Live Demo
 
-🔗 [https://confluence-hougang.netlify.app](https://confluence-hougang.netlify.app)
+🔗 [https://confluence-hg.netlify.app](https://confluence-hg.netlify.app)
 
 ## Tech Stack
 

@@ -14,7 +14,7 @@ export const viewport: Viewport = {
 };
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://confluence-hougang.netlify.app'),
+  metadataBase: new URL('https://confluence-hg.netlify.app'),
   title: 'Confluence @ Hougang | Elevated Living, Naturally Integrated',
   description: 'Where smart innovation meets natural serenity in Hougang\'s most connected community. A nature-infused sanctuary where everything is effortlessly within reach.',
   icons: {
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Confluence @ Hougang | Elevated Living, Naturally Integrated',
     description: 'Smart innovation meets natural serenity at Hougang\'s heart. Live surrounded by lush greenery while staying seamlessly connected to everything that matters.',
-    url: 'https://confluence-hougang.netlify.app',
+    url: 'https://confluence-hg.netlify.app',
     siteName: 'Confluence @ Hougang',
     images: [
       {
