@@ -4,7 +4,7 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## Project Overview
 
-Lumina Sanctuary is a luxury residential development marketing website built with Next.js 13, showcasing the fictional "Confluence @ Hougang" property. This is an educational student project created with bolt.new framework, configured for static site generation and deployment to Netlify.
+Confluence @ Hougang is a luxury residential development marketing website built with Next.js 16, showcasing the fictional "Confluence @ Hougang" property in District 19. This is an educational student project created with bolt.new framework, configured for static site generation and deployment to Netlify.
 
 ## Development Commands
 
@@ -31,12 +31,13 @@ npm run lint
 - No server-side features (API routes, ISR, SSR) are available
 
 ### Technology Stack
-- **Framework**: Next.js 13.5.11 with App Router
+- **Framework**: Next.js 16.0.0 with App Router
 - **Language**: TypeScript 5.2.2 with strict mode
 - **Styling**: Tailwind CSS 3.3.3 with CSS variables for theming
 - **UI Components**: Shadcn/ui (Radix UI primitives + Tailwind)
 - **Forms**: React Hook Form + Zod validation
 - **Icons**: Lucide React
+- **React**: 18.3.1
 
 ### Directory Structure
 
@@ -154,9 +155,10 @@ Always use these aliases instead of relative imports.
 
 **TypeScript Configuration**:
 - Strict mode enabled
-- ES5 target for broad compatibility
-- Path aliases for clean imports
+- ES2020 target with modern JavaScript features
+- Path aliases for clean imports (`@/*` maps to root)
 - Next.js types auto-generated in `.next/types`
+- JSX mode: react-jsx (React 18+ automatic runtime)
 
 **Common Types**:
 - Page components: Accept no props (static generation)
