@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     siteName: 'Confluence @ Hougang',
     images: [
       {
-        url: '/og-image.jpg',
+        url: '/og-image.png',
         width: 1200,
         height: 630,
         alt: 'Confluence @ Hougang - Elevated Living, Naturally Integrated',
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     title: 'Confluence @ Hougang | Elevated Living, Naturally Integrated',
     description: 'Smart innovation meets natural serenity. Urban forest living in Hougang\'s most seamlessly connected community.',
     images: {
-      url: '/og-image.jpg',
+      url: '/og-image.png',
       alt: 'Confluence @ Hougang - Elevated Living, Naturally Integrated'
     },
   },
