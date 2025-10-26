@@ -2,16 +2,17 @@
 
 A luxury residential development marketing website showcasing the fictional "Confluence @ Hougang" property in District 19. Built with Next.js 16, TypeScript, and Tailwind CSS.
 
-This educational student project demonstrates modern web development practices for property marketing, utilizing Next.js App Router with static site generation. Initial framework created with [bolt.new](https://bolt.new).
+This educational student project demonstrates modern web development practices for property marketing, utilizing Next.js App Router with static site generation.
 
 ## Live Demo
 
-🔗 [https://confluence-hg.netlify.app](https://confluence-hg.netlify.app)
+🔗 [https://confluence-hougang.netlify.app](https://confluence-hougang.netlify.app)
 
 ## Tech Stack
 
 - **Framework**: Next.js 16.0.0 with App Router
 - **Language**: TypeScript 5.2.2 (strict mode)
+- **React**: 18.3.1
 - **Styling**: Tailwind CSS 3.3.3
 - **UI Components**: Shadcn/ui (Radix UI + Tailwind)
 - **Forms**: React Hook Form + Zod validation
@@ -49,7 +50,8 @@ components/                   # React components
 public/                       # Static assets
 ├── website_video.mp4        # Hero video
 ├── plan_type[a-f].png       # Unit floorplans
-└── lumina_brochure.pdf      # Marketing brochure
+├── og-image.png             # Social media preview image
+└── *.jpg                    # Location and amenity images
 ```
 
 ## Getting Started
@@ -63,8 +65,8 @@ public/                       # Static assets
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/luminasanctuary-main.git
-cd luminasanctuary-main
+git clone https://github.com/satriapamudji/Confluence.git
+cd Confluence
 
 # Install dependencies
 npm install
