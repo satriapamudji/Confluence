@@ -47,21 +47,27 @@ export function RegisterInterest() {
     setIsSubmitting(true);
 
     try {
-      // Submit to Netlify Forms
-      const formData = new FormData();
-      formData.append('form-name', 'register-interest');
-      formData.append('name', values.name);
-      formData.append('email', values.email);
-      formData.append('phone', values.phone);
-      formData.append('message', values.message || '');
-
-      const response = await fetch('/', {
+      // Submit to Web3Forms
+      const response = await fetch('https://api.web3forms.com/submit', {
         method: 'POST',
-        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-        body: new URLSearchParams(formData as any).toString(),
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        },
+        body: JSON.stringify({
+          access_key: 'dc632bf5-3137-471b-8ac4-4c3c3a5f3ba0',
+          name: values.name,
+          email: values.email,
+          phone: values.phone,
+          message: values.message || 'No message provided',
+          from_name: 'Confluence @ Hougang',
+          subject: 'New Registration Interest from Confluence Website',
+        }),
       });
 
-      if (response.ok) {
+      const result = await response.json();
+
+      if (result.success) {
         toast.success("Thank you for your interest!", {
           description: "Our team will contact you soon with exclusive updates.",
         });
@@ -81,15 +87,9 @@ export function RegisterInterest() {
   return (
     <Form {...form}>
       <form
-        name="register-interest"
-        method="POST"
-        data-netlify="true"
-        netlify-honeypot="bot-field"
         onSubmit={form.handleSubmit(onSubmit)}
         className="space-y-6"
       >
-        {/* Hidden fields for Netlify Forms */}
-        <input type="hidden" name="form-name" value="register-interest" />
         <div className="grid md:grid-cols-2 gap-6">
           <FormField
             control={form.control}
