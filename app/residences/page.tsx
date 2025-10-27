@@ -27,10 +27,10 @@ const unitTypes = [
     description: "Perfect for singles or couples",
     specs: {
       bedrooms: 1,
-      size: "530",
+      size: "495",
       units: 160,
     },
-    layout: "https://confluence-hg.b-cdn.net/Confluence_1BR.png",
+    layout: "https://confluence-hg.b-cdn.net/Confluence_HG_1BR.png",
   },
   {
     id: "2br-exclusive",
@@ -38,10 +38,10 @@ const unitTypes = [
     description: "Ideal for small families",
     specs: {
       bedrooms: 2,
-      size: "772",
+      size: "721",
       units: 200,
     },
-    layout: "https://confluence-hg.b-cdn.net/Confluence_2BR.png",
+    layout: "https://confluence-hg.b-cdn.net/Confluence_HG_2BR.png",
   },
   {
     id: "3br-exclusive",
@@ -49,10 +49,10 @@ const unitTypes = [
     description: "Spacious living for families",
     specs: {
       bedrooms: 3,
-      size: "1014",
+      size: "947",
       units: 240,
     },
-    layout: "https://confluence-hg.b-cdn.net/Confluence_3BR.png",
+    layout: "https://confluence-hg.b-cdn.net/Confluence_HG_3BR.png",
   },
   {
     id: "4br-premium",
@@ -60,10 +60,10 @@ const unitTypes = [
     description: "Ultimate family living space",
     specs: {
       bedrooms: 4,
-      size: "1152",
+      size: "1076",
       units: 230,
     },
-    layout: "https://confluence-hg.b-cdn.net/Confluence_4BR_P.png",
+    layout: "https://confluence-hg.b-cdn.net/Confluence_HG_4BR.png",
   },
   {
     id: "penthouse",
@@ -71,10 +71,10 @@ const unitTypes = [
     description: "Exclusive luxury at its finest",
     specs: {
       bedrooms: 5,
-      size: "2232",
+      size: "2086",
       units: 5,
     },
-    layout: "https://confluence-hg.b-cdn.net/Confluence_PH_A.png",
+    layout: "https://confluence-hg.b-cdn.net/Confluence_PH.png",
   },
 ];
 
