@@ -28,7 +28,7 @@ export default function Home() {
           playsInline
           className="absolute w-full h-full object-cover"
         >
-          <source src="/website_video.mp4" type="video/mp4" />
+          <source src="https://confluence-hg.b-cdn.net/Confluence_BG.mp4" type="video/mp4" />
         </video>
         <div className="absolute inset-0 bg-black/50" />
         <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
